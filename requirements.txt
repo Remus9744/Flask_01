@@ -11,3 +11,4 @@ joblib
 contractions
 sklearn==0.0
 spacy==3.1.2
+flask
