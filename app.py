@@ -2,15 +2,17 @@ from flask import Flask,render_template,url_for,request
 
 import pandas as pd 
 import pickle
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.naive_bayes import MultinomialNB
-# from sklearn.externals import joblib
 import joblib
+
+from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.model_selection import train_test_split
-from sklearn.naive_bayes import MultinomialNB
+from sklearn.feature_extraction.text import TfidfTransformer
+from sklearn.preprocessing import MultiLabelBinarizer
+from sklearn.preprocessing import FunctionTransformer
+from sklearn.preprocessing import Binarizer
 
 import gensim
-from nltk.corpus import stopwords
+
 from gensim.corpora import Dictionary
 from gensim.matutils import corpus2csc
 from gensim.models import Phrases
@@ -20,25 +22,19 @@ from gensim.utils import simple_preprocess
 # Text librairies
 import re
 from bs4 import BeautifulSoup
+import contractions
+from contractions import CONTRACTION_MAP
+from autocorrect import Speller
+
 import nltk
+from nltk.corpus import stopwords
 from nltk.tokenize import ToktokTokenizer
 from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.stem import PorterStemmer
 from nltk.corpus import wordnet
 from nltk.corpus import stopwords
 from nltk.tag.util import untag
-import contractions
-from contractions import CONTRACTION_MAP
-# import pycontractions # Alternative better package for removing contractions
-from autocorrect import Speller
 
-# Pour les données textuelles
-from sklearn.feature_extraction.text import TfidfTransformer
-from sklearn.preprocessing import MultiLabelBinarizer
-from sklearn.preprocessing import FunctionTransformer
-
-# Module to binarize data
-from sklearn.preprocessing import Binarizer
 
 spell = Speller()
 token = ToktokTokenizer()

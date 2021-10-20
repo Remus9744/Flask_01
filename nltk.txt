@@ -1,0 +1,4 @@
+corpus
+tokenize
+tag
+stem
