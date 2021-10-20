@@ -127,6 +127,11 @@ python-editor==1.0.4
 pyviz-comms==2.1.0
 pywin32==227
 pywin32-ctypes==0.2.0
+nltk
+pandas
+joblib
+gensim
+contractions
 pywinpty==0.5.7
 PyYAML==5.4.1
 pyzmq==20.0.0
@@ -146,12 +151,6 @@ spacy-legacy==3.0.8
 sqlparse==0.4.2
 srsly==2.4.1
 statsmodels==0.12.2
-nltk
-pandas
-sklearn
-joblib
-gensim
-contractions
 streamlit==0.89.0
 tables==3.6.1
 tabulate==0.8.9
