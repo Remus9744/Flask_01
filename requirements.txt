@@ -130,7 +130,6 @@ pywin32-ctypes==0.2.0
 nltk
 pandas
 joblib
-gensim
 contractions
 pywinpty==0.5.7
 PyYAML==5.4.1
