@@ -1,6 +1,6 @@
+Flask==1.1.2
 autocorrect==2.5.0
 bs4==0.0.1
-gensim==4.1.0
 gunicorn==20.1.0
 numpy==1.19.5
 plotly==5.1.0
@@ -8,7 +8,7 @@ pyLDAvis==3.2.1
 nltk
 pandas
 joblib
-contractions
+contractions==0.0.52
 sklearn==0.0
 spacy==3.1.2
-flask
+gensim==4.1.0
