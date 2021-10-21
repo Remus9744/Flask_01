@@ -3,3 +3,4 @@ corpus
 tokenize
 tag
 stem
+punkt
