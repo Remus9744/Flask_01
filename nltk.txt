@@ -1,5 +1,5 @@
+punkt
 corpus
 tokenize
 tag
 stem
-punkt
