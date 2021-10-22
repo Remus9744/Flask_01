@@ -232,7 +232,7 @@ def predict():
 		tag_prediction = predict_tags_supervised_unseen_direct(doc_test_transformed, optimal_model, binarizer)
 		#test_1 = df_doc_test['text']
 		test_2 = tag_prediction
-	return render_template('result.html',
+	return render_template('home.html',
                            prediction_1 = test_2,
                            prediction_2 = test_2
                           )
