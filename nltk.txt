@@ -1,4 +1,3 @@
-punkt
 corpus
 tokenize
 tag
