@@ -1,5 +1,1 @@
 punkt
-corpus
-tokenize
-tag
-stem
