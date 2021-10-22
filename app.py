@@ -233,7 +233,7 @@ def predict():
 		#test_1 = df_doc_test['text']
 		test_2 = tag_prediction
 	return render_template('result.html',
-                           #prediction_1 = test_1,
+                           prediction_1 = test_2,
                            prediction_2 = test_2
                           )
 
