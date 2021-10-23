@@ -27,8 +27,9 @@ from contractions import CONTRACTION_MAP
 from autocorrect import Speller
 
 import nltk
-nltk.download('wordnet')
-nltk.download('stopwords')
+nltk.download('all')
+# nltk.download('wordnet')
+# nltk.download('stopwords')
 
 from nltk.corpus import stopwords
 from nltk.tokenize import ToktokTokenizer
