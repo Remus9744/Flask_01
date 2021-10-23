@@ -26,10 +26,9 @@ from bs4 import BeautifulSoup
 from contractions import CONTRACTION_MAP
 from autocorrect import Speller
 
-
+import nltk
 nltk.download('wordnet')
 nltk.download('stopwords')
-import nltk
 
 from nltk.corpus import stopwords
 from nltk.tokenize import ToktokTokenizer
