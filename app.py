@@ -1,7 +1,7 @@
 from flask import Flask,render_template,url_for,request
 
 import pandas as pd 
-import pickle
+#import pickle
 import joblib
 
 from sklearn.feature_extraction.text import CountVectorizer
@@ -22,7 +22,7 @@ from gensim.utils import simple_preprocess
 # Text librairies
 import re
 from bs4 import BeautifulSoup
-import contractions
+# import contractions
 from contractions import CONTRACTION_MAP
 from autocorrect import Speller
 
