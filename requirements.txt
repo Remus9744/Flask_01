@@ -16,3 +16,6 @@ Flask-SQLAlchemy
 requests
 itsdangerous
 Werkzeug
+httptools
+pip
+pyOpenSSL
